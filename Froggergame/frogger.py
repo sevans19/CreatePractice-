@@ -40,7 +40,7 @@ while not done:
     if pressed[pygame.K_a]: b -= 6
     if pressed[pygame.K_d]: b += 6
 
-    screen.fill((0, 0, 0))
+    #screen.fill((0, 0, 0))
     if is_green:
         color2 = (0, 255, 0)
     else:
